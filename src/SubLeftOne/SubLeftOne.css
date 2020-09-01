@@ -1,0 +1,43 @@
+.SubLeft{
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  .Heading{
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+  .Heading>span{
+    color: blue;
+  }
+  .Para{
+    color: gray;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+  .Arrow{
+    display: flex;
+    margin-top: 40px;
+  }
+  .Arrow>img{
+    margin-right: 20px;
+    border: none;
+  }
+  .NewBtn{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+  }
+  @media(max-width:600px){
+    .SubLeft{
+      margin-left: 0px;
+    }
+    .Heading{
+      font-size: 55px;
+      margin-top: 0px;
+    }
+  }

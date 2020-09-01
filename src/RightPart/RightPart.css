@@ -1,0 +1,17 @@
+.RightPart{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+  }
+  @media(max-width:600px){
+    .Picture{
+      width: 100%;
+    }
+    .RightPart{
+      width: unset;
+      padding: 0px 16px;
+      position: relative;
+      top: -18rem;
+    }
+  }

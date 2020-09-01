@@ -1,0 +1,13 @@
+.WrapperDiv{
+  display: flex;
+  margin-bottom: 60px;
+}
+@media(max-width:600px){
+  .WrapperDiv{
+    display: block;
+  }
+}
+
+
+
+

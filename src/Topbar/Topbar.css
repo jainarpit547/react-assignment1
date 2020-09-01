@@ -1,0 +1,56 @@
+.Topbar {
+    width: 100%;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    height: 90px;
+    background-color: blu;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Hamburger{
+    font-size: 25px;
+    display: none;
+  }
+  .ToggleMenu{
+    height: 50px;
+  }
+  .BtnMenu{
+    background: none;
+    border: none;
+    color: grey;
+    margin-right: 60px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+  }
+  .BtnMenu:hover{
+      color: darkblue;
+      border-bottom: 3px solid darkblue;
+  }
+  .AccountBtn{
+    background-color: #f4c2c2 ;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 35px;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  @media(max-width:600px){
+    .BtnMenu{
+      display: none;
+    }
+    .AccountBtn{
+      display: none;
+    }
+    .Hamburger{
+      display: block;
+      cursor: pointer;
+    }
+  }
